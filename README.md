@@ -8,16 +8,16 @@
 ```
 sudo apt install build-essential libgl1-mesa-dev qt5-default
 ```
+Note: You will need Qt>=5.14 as QColorSpace has been included in the new xflr5 version.
 
 **2.** Download the files from this repo and extract them:
 ```
-cd /path/to/repo/
-git clone https://github.com/polmes/xflr5-ubuntu.git
+git clone https://github.com/nikhil-sethi/xflr5-ubuntu.git
+cd xflr5-ubuntu
 ```
 
 **3.** Follow the standard install procedure:
 ```
-cd /path/to/repo/xflr5/
 qmake
 make # will take a while
 sudo make install # create executable
